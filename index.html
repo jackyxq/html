@@ -1,0 +1,75 @@
+<html style="font-size: 100px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Sudoku Master - Brain game, Number game</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <style>
+        #home{display:flex;justify-content:flex-start;flex-direction:column;min-height:100%}
+        #home .down{margin-top:0.24rem}
+        #home .down .d-title{font-size:0.62rem;font-weight:500;line-height:0.7rem;margin-bottom:0.3rem}
+        #home .down .d-text{font-size:0.25rem;line-height:1.5;margin-bottom:0.3rem;color:rgba(0,0,0,0.5)}
+        #home .store{display:flex;margin:0 -0.1rem;justify-content:center;flex-direction:row}
+        #home .store img{max-height:0.8rem;margin:0 0.1rem}
+        #home .contact{width:100%;text-align:center;color:rgba(0,0,0,0.4);font-size:0.22rem;padding:0.2rem 0 0.4rem}
+        #home .contact a{color:inherit;text-decoration:none}
+        #home .contact.footer-links{padding:0.2rem 0 0}
+        #home .footer-links .split{margin:0 0.04rem}
+        #home .contact.footer-links a:hover{color:#5067ed}
+        @media (max-width:720px){
+            #home .down .d-title{padding-left:0.32rem;padding-right:0.32rem}
+            #home .down .d-text{padding-left:0.32rem;padding-right:0.32rem}
+        }
+        @media (min-width:720px){
+            #home .nav{padding:40px 60px}
+            #home .nav .logo{height:68px}
+            #home .home-main{display:flex;justify-content:space-between;flex-direction:row-reverse;align-items:center}
+            #home .banner{padding-top:20px;padding-left:6vw;padding-right:6vw;width:60%}
+            #home .down{margin-top:0;padding-left:8vw;max-width:50%}
+            #home .down .d-title{text-align:left;font-size:5vw;line-height:5vw;margin-bottom:2vw}
+            #home .down .d-text{font-size:1.5vw;margin-bottom:2vw}
+            #home .store{display:flex;margin:0 -14px;justify-content:flex-start;flex-direction:row}
+            #home .store img{height:5vw;margin:0 14px}
+        }
+        @media (min-width:1500px){
+            #home .home-main{max-width:1800px;margin-left:auto;margin-right:auto}
+            #home .banner{width:54%}
+            #home .down{margin-top:0.6rem;padding-left:140px}
+            #home .down .d-title{font-size:64px;line-height:70px;margin-bottom:40px}
+            #home .down .d-text{font-size:32px;margin-bottom:30px}
+            #home .store{margin:0 -14px}
+            #home .store img{height:55px;margin:0 14px}
+        }
+    </style>
+</head>
+
+  <body id="home">
+    <section class="home-main">
+      <div class="banner">
+        <a style="display: block;">
+          <img src="logo.png" alt="Sudoku Master">
+        </a>
+      </div>
+      <div class="down">
+        <h1 class="d-title">
+            Sudoku Master
+        </h1>
+        <p class="d-text">
+            An easy-to-play puzzle game
+        </p>
+        <div class="store">
+          <a href="https://play.google.com/store/apps/details?id=com.xinye.sudoku"><img src="google-store.png" alt="Google Play" title="Google Play"></a>
+          <!--<a target="_blank" href=""><img src="apple-store.png" alt="Apple Store" title="Apple Store"></a>-->
+        </div>
+      </div>
+    </section>
+    <section>
+      <section class="contact footer-links">
+        <a href="https://sites.google.com/view/jackyxqsudoku">Privacy Policy</a>
+        <span class="split">|</span>
+          Send:&nbsp;&nbsp;<a href="mailto:jackyxqlee@gmail.com">jackyxqlee@gmail.com</a>
+      </section>
+    </section>
+  </body>
+</html>
